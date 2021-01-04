@@ -8,7 +8,10 @@ elsif array.count == 3
   new_array.insert(14, "and ")
 else array.count > 3
   array.insert(-2, "and")
-  array.length-3 
+  counter = 0
+  while counter < array.length-2
+  array.each do |x|
+    array.insert
   array.join(" ")
 end 
 end
