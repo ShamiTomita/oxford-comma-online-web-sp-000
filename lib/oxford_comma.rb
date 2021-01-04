@@ -7,6 +7,6 @@ elsif array.count == 3
   new_array = array.join (", ")
   new_array.insert(14, "and ")
 else array.count > 3
-  array.last.insert( "and")
+  array.last.insert(last, "and")
 end 
 end
