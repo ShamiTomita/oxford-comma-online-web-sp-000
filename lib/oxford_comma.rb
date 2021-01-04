@@ -9,5 +9,6 @@ elsif array.count == 3
 else array.count > 3
   new_array = array .join (", ")
   new_array.split(",")
+  new_array.insert(-2, "and")
 end 
 end
