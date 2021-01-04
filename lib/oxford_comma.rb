@@ -11,7 +11,7 @@ else array.count > 3
   counter = 0
   while counter < array.length-2
   array.each do |x|
-    array.insert
-  array.join(" ")
+    array.insert(x, ", ")
+  end 
 end 
 end
