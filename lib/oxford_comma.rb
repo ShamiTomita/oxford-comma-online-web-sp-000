@@ -8,7 +8,7 @@ elsif array.count == 3
   new_array.insert(14, "and ")
 else array.count > 3
   array.insert(-2, "and")
-  array.insert((0...-3) , ", ")
+  array.each.insert((0...-3) , ", ")
   array.join
 end 
 end
