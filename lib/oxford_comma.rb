@@ -5,6 +5,6 @@ elsif array.count == 2
   array.join(" and ")
 elsif array.count == 3 
   array.join (", ")
-  array.insert(2, "and")
+  array.insert(16, "and")
 end 
 end
